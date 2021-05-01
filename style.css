@@ -1,0 +1,28 @@
+/* html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar{
+    width:50%;
+    height: 100%;
+    background-color: red;
+    overflow-y: scroll;
+} */
+#chartdiv {
+    width: 100%;
+    height: 100%
+}
+#sidebar {
+    /* width: 75%;
+    height: 400px; */
+    /* float: right; */
+    color:white;
+}
+.scroll {
+    /* max-height: 800px;
+    overflow-y: auto; */
+    color:white;
+}
