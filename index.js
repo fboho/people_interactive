@@ -1713,10 +1713,10 @@ am4core.ready(function() {
     // Set up custom heat map legend labels using axis ranges
     var minRange = heatLegend.valueAxis.axisRanges.create();
     minRange.value = heatLegend.minValue;
-    minRange.label.text = "less equitable";
+    minRange.label.text = "less fair";
     var maxRange = heatLegend.valueAxis.axisRanges.create();
     maxRange.value = heatLegend.maxValue;
-    maxRange.label.text = "more equitable";
+    maxRange.label.text = "more fair";
 
     // Blank out internal heat legend value axis labels
     heatLegend.valueAxis.renderer.labels.template.adapter.add("text", function(labelText) {
